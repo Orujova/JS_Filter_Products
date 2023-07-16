@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="products__heading">Products</h1>
+      <div class="flex">
+        <input type="text" id="search" disabled placeholder="Product Name" />
+        <input type="number" id="min_price" disabled placeholder="Min Price" />
+        <input type="number" id="max_price" disabled placeholder="Max Price" />
+        <select disabled id="category">
+          <option value="">ALL</option>
+        </select>
+      </div>
+
+      <section class="products"></section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
